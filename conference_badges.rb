@@ -14,16 +14,5 @@ def batch_badge_creator(attendees)
   return messages
 end
 
-def assign_rooms(attendees)
-  
-  counter = 0
-  attendees.each do |name|
-    puts "Hello, #{name}, you'll be assigned to room #{attendees.index}!"
-    counter += 1
-  end
-  rooms = []
-  rooms << badge_maker(name)
-  return rooms
-  
-end
+
 
