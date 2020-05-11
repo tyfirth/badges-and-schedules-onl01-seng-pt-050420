@@ -23,5 +23,6 @@ def assign_rooms(attendees)
   end
   reply = []
   reply << batch_badge_creator(attendees)
+  return reply
 end
 
