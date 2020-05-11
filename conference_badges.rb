@@ -24,8 +24,8 @@ def assign_rooms(attendees)
 return messages
 
 def printer
-  return batch_badge_creator(attendees)
-  return assign_rooms(attendees)
+  puts batch_badge_creator(attendees)
+  puts assign_rooms(attendees)
 end
 
 
