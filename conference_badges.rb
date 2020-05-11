@@ -18,7 +18,7 @@ def assign_rooms(attendees)
   rooms = []
   counter = 0
   attendees.each do |name, counter|
-    puts "Hello, #{name}, you'll be assigned to #{badge_maker[index]}!"
+    puts "Hello, #{name}, you'll be assigned to #{badge_maker[counter]}!"
     rooms << badge_maker(name)
     counter += 1
   end
