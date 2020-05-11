@@ -10,8 +10,6 @@ def badge_maker(guests)
   
   guests.each do |name|
     puts "Hello, my name is #{name}."
-    nameArray << guests
-    
   end
 end
 
