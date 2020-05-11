@@ -22,6 +22,6 @@ def assign_rooms(attendees)
     counter += 1
   end
   reply = []
-  reply << assign_rooms(attendees)
+  reply << batch_badge_creator(attendees)
 end
 
