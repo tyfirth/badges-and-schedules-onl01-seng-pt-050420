@@ -2,6 +2,8 @@
 
 guests = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
 
+rooms = [1,2,3,4,5,6,7]
+
 def badge_maker(name)
   
   
@@ -11,3 +13,6 @@ def batch_badge_creator(guests)
   guests.each{ |name| puts "Hello, my name is #{name}" }
 end
 
+def assign_rooms
+  
+end
