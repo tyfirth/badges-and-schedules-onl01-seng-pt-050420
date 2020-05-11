@@ -11,5 +11,6 @@ def batch_badge_creator(attendees)
   attendees.each do |name|
     messages << badge_maker(name) 
   end
+  return messages
 end
 
